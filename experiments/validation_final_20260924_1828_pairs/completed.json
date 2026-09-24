@@ -1,0 +1,8 @@
+{
+  "cases": 6,
+  "new_official_calls": 98,
+  "comparison_kinds": [
+    "same Q3-selected submission under both hardware scenes",
+    "same complete candidate pool, optimized on each side"
+  ]
+}

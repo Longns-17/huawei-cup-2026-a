@@ -1,0 +1,9 @@
+{
+  "idea_sha256": "405ddd925ef27eaf4010e7ff557768b290e9fea27b6795ed2c8980a0798174c1",
+  "main": "validation_final_20260924_1828",
+  "paired": "validation_final_20260924_1828_pairs",
+  "resources": "validation_final_20260924_1828_resources",
+  "ablation": "validation_final_20260924_1828_ablation",
+  "topology": "validation_final_20260924_1828_topology",
+  "calibration": "validation_final_20260924_1828_calibration"
+}

@@ -1,0 +1,8 @@
+{
+  "pool_size": 33,
+  "new_official_calls": 20,
+  "new_calls_by_scene": {
+    "2": 16,
+    "3": 4
+  }
+}

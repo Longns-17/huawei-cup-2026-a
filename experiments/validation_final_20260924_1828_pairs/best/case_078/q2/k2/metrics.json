@@ -1,0 +1,36 @@
+{
+  "makespan": 1049840,
+  "added_copy_bytes": 2802816,
+  "original_copy_bytes": 2345088,
+  "boundary_bytes_before_spill": 5147904,
+  "spill_copy_bytes": 0,
+  "scheduled_copy_bytes": 5147904,
+  "ddr_service_bytes": 5147904,
+  "cache_hit_bytes": 0,
+  "cache_byte_hit_rate": 0.0,
+  "global_lower_bound": 1018944.0,
+  "plan_lower_bound": 1018944.0,
+  "gap_to_global_bound": 0.030321587839959863,
+  "subgraph_count": 424,
+  "tasks_per_core": [
+    1,
+    1
+  ],
+  "memory_peak_by_core": {
+    "0": {
+      "L1": 338688,
+      "UB": 0
+    },
+    "1": {
+      "L1": 347904,
+      "UB": 0
+    }
+  },
+  "case": "case_078",
+  "scene": 2,
+  "cores": 2,
+  "original_makespan": 1050081,
+  "selection": "equal_candidate_pool",
+  "pool_size": 8,
+  "official_result": "..\\..\\..\\..\\case_078\\q2\\001_9222fd2ea194.official.json.gz"
+}

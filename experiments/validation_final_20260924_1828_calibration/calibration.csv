@@ -1,0 +1,13 @@
+﻿case,scene,makespan,scheduled_copy_bytes
+cache_together,1,1126,61440
+cache_together,2,1025,61440
+cache_together,3,1025,61440
+cache_staggered,1,1025,61440
+cache_staggered,2,1025,61440
+cache_staggered,3,1015,61440
+one_to_many_two_cores,1,1109,360
+one_to_many_two_cores,2,507,300
+one_to_many_two_cores,3,507,300
+one_to_many_three_cores,1,1008,360
+one_to_many_three_cores,2,507,420
+one_to_many_three_cores,3,507,420

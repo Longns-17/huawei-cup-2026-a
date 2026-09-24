@@ -1,0 +1,11 @@
+{
+  "case": "case_006",
+  "scene": 3,
+  "complete": true,
+  "actual_calls_started": 29,
+  "actual_calls_completed": 29,
+  "official_seconds": 1.8994169999969017,
+  "wall_seconds": 2.6716711000008218,
+  "result_slots": 5,
+  "structural_duplicates": 4
+}

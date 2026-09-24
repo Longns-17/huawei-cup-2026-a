@@ -1,0 +1,422 @@
+[
+  {
+    "cores": 1,
+    "label": "whole_graph",
+    "status": "evaluated",
+    "evaluation": "evaluations/001_8a238951c257.official.json.gz"
+  },
+  {
+    "cores": 2,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_8a238951c257.official.json.gz"
+  },
+  {
+    "cores": 2,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/001_8a238951c257.official.json.gz"
+  },
+  {
+    "cores": 2,
+    "label": "a2_b1",
+    "generation_seconds": 0.010210300002654549,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0,
+      "serial_visit_peaks": [
+        {
+          "L1": 4928,
+          "UB": 5282,
+          "DDR": 0
+        },
+        {
+          "L1": 5376,
+          "UB": 4066,
+          "DDR": 0
+        }
+      ]
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/002_eee54c767cf3.official.json.gz",
+    "submission": "evaluations/002_eee54c767cf3.plan.json",
+    "makespan": 11251,
+    "added_copy_bytes": 72390
+  },
+  {
+    "cores": 2,
+    "label": "traffic_price",
+    "generation_seconds": 0.012142600000515813,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 1,
+      "boundary_bytes_before_spill": 110252,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/003_6c1d1af5a0f1.official.json.gz",
+    "submission": "evaluations/003_6c1d1af5a0f1.plan.json",
+    "makespan": 16054,
+    "added_copy_bytes": 72838
+  },
+  {
+    "cores": 2,
+    "label": "pipeline_finish",
+    "generation_seconds": 0.011249799998040544,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 0,
+      "boundary_bytes_before_spill": 90634,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/004_9ee2d743a837.official.json.gz",
+    "submission": "evaluations/004_9ee2d743a837.plan.json",
+    "makespan": 14357,
+    "added_copy_bytes": 53220
+  },
+  {
+    "cores": 2,
+    "label": "a4_b0",
+    "generation_seconds": 0.008887500000128057,
+    "diagnostic": {
+      "alpha": 4,
+      "repaired_components": 0
+    },
+    "status": "duplicate",
+    "duplicate_of": "a2_b1"
+  },
+  {
+    "cores": 2,
+    "label": "release_order_8",
+    "generation_seconds": 0.008571500002290122,
+    "diagnostic": {
+      "window": 8
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/005_f8578b2da1ab.official.json.gz",
+    "submission": "evaluations/005_f8578b2da1ab.plan.json",
+    "makespan": 12009,
+    "added_copy_bytes": 72390
+  },
+  {
+    "cores": 3,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_8a238951c257.official.json.gz"
+  },
+  {
+    "cores": 3,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/002_eee54c767cf3.official.json.gz"
+  },
+  {
+    "cores": 3,
+    "label": "a2_b1",
+    "generation_seconds": 0.018836399998690467,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0,
+      "serial_visit_peaks": [
+        {
+          "L1": 2880,
+          "UB": 2850,
+          "DDR": 0
+        },
+        {
+          "L1": 5120,
+          "UB": 5042,
+          "DDR": 0
+        },
+        {
+          "L1": 2304,
+          "UB": 2596,
+          "DDR": 0
+        }
+      ]
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/006_7d293adf991d.official.json.gz",
+    "submission": "evaluations/006_7d293adf991d.plan.json",
+    "makespan": 12324,
+    "added_copy_bytes": 121612
+  },
+  {
+    "cores": 3,
+    "label": "traffic_price",
+    "generation_seconds": 0.014197199998307042,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 1,
+      "boundary_bytes_before_spill": 139154,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/007_31efe8155963.official.json.gz",
+    "submission": "evaluations/007_31efe8155963.plan.json",
+    "makespan": 14761,
+    "added_copy_bytes": 101740
+  },
+  {
+    "cores": 3,
+    "label": "pipeline_finish",
+    "generation_seconds": 0.01563929999974789,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 0,
+      "boundary_bytes_before_spill": 148242,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/008_3a2aa02d4e6a.official.json.gz",
+    "submission": "evaluations/008_3a2aa02d4e6a.plan.json",
+    "makespan": 15022,
+    "added_copy_bytes": 110828
+  },
+  {
+    "cores": 3,
+    "label": "a4_b0",
+    "generation_seconds": 0.009184599999571219,
+    "diagnostic": {
+      "alpha": 4,
+      "repaired_components": 0
+    },
+    "status": "duplicate",
+    "duplicate_of": "a2_b1"
+  },
+  {
+    "cores": 3,
+    "label": "release_order_8",
+    "generation_seconds": 0.00872969999909401,
+    "diagnostic": {
+      "window": 8
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/009_c727d4fe0a03.official.json.gz",
+    "submission": "evaluations/009_c727d4fe0a03.plan.json",
+    "makespan": 13062,
+    "added_copy_bytes": 121612
+  },
+  {
+    "cores": 4,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_8a238951c257.official.json.gz"
+  },
+  {
+    "cores": 4,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/002_eee54c767cf3.official.json.gz"
+  },
+  {
+    "cores": 4,
+    "label": "a2_b1",
+    "generation_seconds": 0.010443500003020745,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0,
+      "serial_visit_peaks": [
+        {
+          "L1": 3904,
+          "UB": 3428,
+          "DDR": 0
+        },
+        {
+          "L1": 4352,
+          "UB": 4292,
+          "DDR": 0
+        },
+        {
+          "L1": 2816,
+          "UB": 2626,
+          "DDR": 0
+        },
+        {
+          "L1": 2304,
+          "UB": 2592,
+          "DDR": 0
+        }
+      ]
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/010_b2a798f1d3b4.official.json.gz",
+    "submission": "evaluations/010_b2a798f1d3b4.plan.json",
+    "makespan": 12170,
+    "added_copy_bytes": 136496
+  },
+  {
+    "cores": 4,
+    "label": "traffic_price",
+    "generation_seconds": 0.019463700002233963,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 1,
+      "boundary_bytes_before_spill": 146166,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/011_0ec6d20e06b9.official.json.gz",
+    "submission": "evaluations/011_0ec6d20e06b9.plan.json",
+    "makespan": 12582,
+    "added_copy_bytes": 108752
+  },
+  {
+    "cores": 4,
+    "label": "pipeline_finish",
+    "generation_seconds": 0.01697220000278321,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 0,
+      "boundary_bytes_before_spill": 152244,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/012_9ed0ddbd5fa5.official.json.gz",
+    "submission": "evaluations/012_9ed0ddbd5fa5.plan.json",
+    "makespan": 12221,
+    "added_copy_bytes": 114830
+  },
+  {
+    "cores": 4,
+    "label": "a4_b0",
+    "generation_seconds": 0.009882800000923453,
+    "diagnostic": {
+      "alpha": 4,
+      "repaired_components": 0
+    },
+    "status": "duplicate",
+    "duplicate_of": "a2_b1"
+  },
+  {
+    "cores": 4,
+    "label": "release_order_8",
+    "generation_seconds": 0.009455999999772757,
+    "diagnostic": {
+      "window": 8
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/013_c3fa55e483f6.official.json.gz",
+    "submission": "evaluations/013_c3fa55e483f6.plan.json",
+    "makespan": 13264,
+    "added_copy_bytes": 136496
+  },
+  {
+    "cores": 5,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_8a238951c257.official.json.gz"
+  },
+  {
+    "cores": 5,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/002_eee54c767cf3.official.json.gz"
+  },
+  {
+    "cores": 5,
+    "label": "a2_b1",
+    "generation_seconds": 0.011213600002520252,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0,
+      "serial_visit_peaks": [
+        {
+          "L1": 2560,
+          "UB": 2660,
+          "DDR": 0
+        },
+        {
+          "L1": 4608,
+          "UB": 5732,
+          "DDR": 0
+        },
+        {
+          "L1": 1536,
+          "UB": 1058,
+          "DDR": 0
+        },
+        {
+          "L1": 2304,
+          "UB": 2628,
+          "DDR": 0
+        },
+        {
+          "L1": 1536,
+          "UB": 546,
+          "DDR": 0
+        }
+      ]
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/014_685441f4746d.official.json.gz",
+    "submission": "evaluations/014_685441f4746d.plan.json",
+    "makespan": 12092,
+    "added_copy_bytes": 120786
+  },
+  {
+    "cores": 5,
+    "label": "traffic_price",
+    "generation_seconds": 0.021106600001076004,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 1,
+      "boundary_bytes_before_spill": 164314,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/015_82ff9a2d6430.official.json.gz",
+    "submission": "evaluations/015_82ff9a2d6430.plan.json",
+    "makespan": 12748,
+    "added_copy_bytes": 126900
+  },
+  {
+    "cores": 5,
+    "label": "pipeline_finish",
+    "generation_seconds": 0.021808699999382952,
+    "diagnostic": {
+      "cache_aware": false,
+      "weight": 0,
+      "boundary_bytes_before_spill": 170970,
+      "predicted_hit_bytes": 0,
+      "predicted_hit_count": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/016_391a084d6d80.official.json.gz",
+    "submission": "evaluations/016_391a084d6d80.plan.json",
+    "makespan": 12896,
+    "added_copy_bytes": 133556
+  },
+  {
+    "cores": 5,
+    "label": "a4_b0",
+    "generation_seconds": 0.011670100000628736,
+    "diagnostic": {
+      "alpha": 4,
+      "repaired_components": 0
+    },
+    "status": "duplicate",
+    "duplicate_of": "a2_b1"
+  },
+  {
+    "cores": 5,
+    "label": "release_order_8",
+    "generation_seconds": 0.010404199998447439,
+    "diagnostic": {
+      "window": 8
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/017_acdf0caea6fe.official.json.gz",
+    "submission": "evaluations/017_acdf0caea6fe.plan.json",
+    "makespan": 12211,
+    "added_copy_bytes": 120786
+  }
+]

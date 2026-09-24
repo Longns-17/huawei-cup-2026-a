@@ -1,0 +1,137 @@
+{
+  "ops": [
+    {
+      "id": 100,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 101,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 102,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 103,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 2003,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    },
+    {
+      "id": 2005,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    },
+    {
+      "id": 2007,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    }
+  ],
+  "tensors": [
+    {
+      "id": 1000,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 1001,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3003,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 1002,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3005,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 1003,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3007,
+      "pos": "DDR",
+      "size": 60
+    }
+  ],
+  "edges": [
+    {
+      "source": 100,
+      "target": 1000
+    },
+    {
+      "source": 1000,
+      "target": 101
+    },
+    {
+      "source": 1000,
+      "target": 102
+    },
+    {
+      "source": 1000,
+      "target": 103
+    },
+    {
+      "source": 101,
+      "target": 1001
+    },
+    {
+      "source": 1001,
+      "target": 2003
+    },
+    {
+      "source": 2003,
+      "target": 3003
+    },
+    {
+      "source": 102,
+      "target": 1002
+    },
+    {
+      "source": 1002,
+      "target": 2005
+    },
+    {
+      "source": 2005,
+      "target": 3005
+    },
+    {
+      "source": 103,
+      "target": 1003
+    },
+    {
+      "source": 1003,
+      "target": 2007
+    },
+    {
+      "source": 2007,
+      "target": 3007
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "scan_batches": 1,
+  "scan_seconds": 0.0003513000010570977,
+  "initialization_seconds": 0.0003614999986893963
+}

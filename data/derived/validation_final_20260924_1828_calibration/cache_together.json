@@ -1,0 +1,208 @@
+{
+  "ops": [
+    {
+      "id": 100,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 101,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 102,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 103,
+      "op": "CALC",
+      "pipe": "PIPE_V",
+      "cycles": 1
+    },
+    {
+      "id": 2000,
+      "op": "COPY_IN",
+      "pipe": "PIPE_MTE2",
+      "cycles": 0
+    },
+    {
+      "id": 2002,
+      "op": "COPY_IN",
+      "pipe": "PIPE_MTE2",
+      "cycles": 0
+    },
+    {
+      "id": 2005,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    },
+    {
+      "id": 2007,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    },
+    {
+      "id": 2009,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    },
+    {
+      "id": 2011,
+      "op": "COPY_OUT",
+      "pipe": "PIPE_MTE3",
+      "cycles": 0
+    }
+  ],
+  "tensors": [
+    {
+      "id": 1000,
+      "pos": "UB",
+      "size": 600
+    },
+    {
+      "id": 3000,
+      "pos": "DDR",
+      "size": 600
+    },
+    {
+      "id": 1001,
+      "pos": "UB",
+      "size": 30000
+    },
+    {
+      "id": 3002,
+      "pos": "DDR",
+      "size": 30000
+    },
+    {
+      "id": 1002,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3005,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 1003,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3007,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 1004,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3009,
+      "pos": "DDR",
+      "size": 60
+    },
+    {
+      "id": 1005,
+      "pos": "UB",
+      "size": 60
+    },
+    {
+      "id": 3011,
+      "pos": "DDR",
+      "size": 60
+    }
+  ],
+  "edges": [
+    {
+      "source": 3000,
+      "target": 2000
+    },
+    {
+      "source": 2000,
+      "target": 1000
+    },
+    {
+      "source": 1000,
+      "target": 100
+    },
+    {
+      "source": 1000,
+      "target": 101
+    },
+    {
+      "source": 3002,
+      "target": 2002
+    },
+    {
+      "source": 2002,
+      "target": 1001
+    },
+    {
+      "source": 1001,
+      "target": 102
+    },
+    {
+      "source": 1001,
+      "target": 103
+    },
+    {
+      "source": 100,
+      "target": 1002
+    },
+    {
+      "source": 1002,
+      "target": 2005
+    },
+    {
+      "source": 2005,
+      "target": 3005
+    },
+    {
+      "source": 101,
+      "target": 1003
+    },
+    {
+      "source": 1003,
+      "target": 2007
+    },
+    {
+      "source": 2007,
+      "target": 3007
+    },
+    {
+      "source": 102,
+      "target": 1004
+    },
+    {
+      "source": 1004,
+      "target": 2009
+    },
+    {
+      "source": 2009,
+      "target": 3009
+    },
+    {
+      "source": 103,
+      "target": 1005
+    },
+    {
+      "source": 1005,
+      "target": 2011
+    },
+    {
+      "source": 2011,
+      "target": 3011
+    }
+  ]
+}

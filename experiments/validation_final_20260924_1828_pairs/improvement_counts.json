@@ -1,0 +1,16 @@
+[
+  {
+    "scene": 2,
+    "slots": 30,
+    "improved": 10,
+    "equal": 20,
+    "worse": 0
+  },
+  {
+    "scene": 3,
+    "slots": 30,
+    "improved": 4,
+    "equal": 26,
+    "worse": 0
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "case": "case_064",
+  "wall_seconds": 10.952688400000625,
+  "accelerator": {
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "scan_batches": 8,
+    "scan_seconds": 0.004229400001349859,
+    "initialization_seconds": 0.00039680000190855935
+  },
+  "complete": true
+}

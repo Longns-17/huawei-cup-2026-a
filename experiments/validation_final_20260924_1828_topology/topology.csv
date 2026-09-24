@@ -1,0 +1,9 @@
+﻿case,cores,kahn_candidate,dfs_candidate,original_search,replaced_search,time_ratio,reused,scope
+case_064,2,21721,22409,19116,19116,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_064,3,22631,23823,19116,19116,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_064,4,23521,24209,19116,19116,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_064,5,25044,25740,19116,19116,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_069,2,29576,30121,25144,25144,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_069,3,30476,31021,25144,25144,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_069,4,30098,32275,25144,25144,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan
+case_069,5,30998,33175,25144,25144,1.0,False,Replace only this k candidate; preserve other candidates and original inherited plan

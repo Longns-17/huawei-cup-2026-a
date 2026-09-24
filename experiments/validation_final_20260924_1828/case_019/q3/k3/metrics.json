@@ -1,0 +1,45 @@
+{
+  "makespan": 27032,
+  "added_copy_bytes": 191304,
+  "original_copy_bytes": 186984,
+  "boundary_bytes_before_spill": 378288,
+  "spill_copy_bytes": 0,
+  "scheduled_copy_bytes": 378288,
+  "ddr_service_bytes": 317808,
+  "cache_hit_bytes": 60480,
+  "cache_byte_hit_rate": 0.198868867552282,
+  "global_lower_bound": 16145.333333333334,
+  "plan_lower_bound": 18308,
+  "gap_to_global_bound": 0.6742918490379057,
+  "subgraph_count": 68,
+  "tasks_per_core": [
+    1,
+    1,
+    1
+  ],
+  "memory_peak_by_core": {
+    "0": {
+      "L1": 36864,
+      "UB": 18432
+    },
+    "1": {
+      "L1": 36864,
+      "UB": 16512
+    },
+    "2": {
+      "L1": 28416,
+      "UB": 30848
+    }
+  },
+  "case": "case_019",
+  "scene": 3,
+  "cores": 3,
+  "winner": "a4_b0",
+  "complete": true,
+  "official_result": "../evaluations/011_b13cd404e198.official.json.gz",
+  "admitted_candidates": 7,
+  "candidate_budget": 7,
+  "new_official_calls": 7,
+  "cumulative_official_calls": 15,
+  "generation_seconds": 0.018070499998430023
+}

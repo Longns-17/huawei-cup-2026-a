@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-09-24T18:32:19.445250+08:00",
+  "workspace": "D:\\研一上学期\\华为杯\\_code",
+  "idea_sha256": "405ddd925ef27eaf4010e7ff557768b290e9fea27b6795ed2c8980a0798174c1",
+  "official_files_verified": 114,
+  "official_cases": 100,
+  "test_result": {
+    "tests": 47,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 15.056
+  },
+  "source_sha256": {
+    "src\\npu_schedule\\__init__.py": "01d20b9a1b8acd47648e8463dc282fcff110f8f9455c2fd932dc7254dfc3f521",
+    "src\\npu_schedule\\analysis.py": "eee1cfdf6de4ebd8910d7f70ff8c250f191fe8ca1c8247ed057c2b0f66c9378a",
+    "src\\npu_schedule\\calendar.py": "94953b053a033e79fa429d2086118f6e9b9d4664e9757d737f82e923edb4e0d9",
+    "src\\npu_schedule\\candidates.py": "74ffea4c044ff7ba95cd3d37cb5b12949d1093a3dce3c1df0f49ef2490d0f5ad",
+    "src\\npu_schedule\\cli.py": "52b778af0b3d9a4be69ee19387e7643c0a8f4eeb908b452743dec49c8c6fa930",
+    "src\\npu_schedule\\construction.py": "07254082374cbe597808dda4d65f85f925fa029d77ad2d79f7cef97c1e7c6caa",
+    "src\\npu_schedule\\experiment.py": "4421620fe3b20f7da1143cad2a36001c8eadc60737c3de7f86c4a90ac1a4baa4",
+    "src\\npu_schedule\\metrics.py": "f42379a9b22cadfaf1fd09b3a95c28e2893a12807eaf70773646933ea228269f",
+    "src\\npu_schedule\\official.py": "51a3ccea10d4c42250f2f207e4f36c3e9ad457d4355864dc957870e8a45f51cb",
+    "src\\npu_schedule\\ordering.py": "dc8cd42a840e126bb63ea68c8b9a5b7cefaba564243ec27fd46e6b54dff926ab",
+    "src\\npu_schedule\\pricing.py": "ebb3cc1864d2d37914fcaeae9cb4cc99a0b4b2c20625952efef397cf257b95a2",
+    "src\\npu_schedule\\problem.py": "ef12a529f25ce0df7f402adda772d5bc5c94d0bf94f7d9470de14297b611801d",
+    "src\\npu_schedule\\report.py": "0945e35d58f82c6291b4e1f36df815c84ac824b33dde8490f56bcacba6567c90",
+    "src\\npu_schedule\\residency.py": "dd69b58c168d03496025df830fd07c401124328c49987d5af3d2c4c2f320904d",
+    "src\\npu_schedule\\search.py": "1c25049d2e2e198bc54a49d17d30c5ac3236f156875e0d9070f2c6707fcfbeb5",
+    "src\\npu_schedule\\statistics.py": "0f4fcf03d899a9047e76b39092d761cb2fe7e59606b3e43909fe4dd38d799ba5",
+    "src\\npu_schedule\\storage.py": "a4e51cd5aa197c7dfd93358b9112980c22b12dc3c0a7654cf504c64b350c3a47",
+    "src\\npu_schedule\\synthetic.py": "e624a57eb1288193b745fac55d63235583759acd0e336ad4fec16f58f5eb30a7",
+    "src\\npu_schedule\\topology_control.py": "056ff5c188ba03965c241c0aae0c04c8471855386b6e14478f30d6c2aae00411",
+    "src\\npu_schedule\\verification.py": "7547024102f2791086ca3ca777c6f947897c3e45f2466719b01d92fba1c70582",
+    "official\\code\\contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+    "official\\code\\evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+    "official\\code\\multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+    "official\\code\\multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+    "official\\code\\multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+    "official\\code\\schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+    "official\\code\\schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+    "official\\code\\schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+    "official\\code\\singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+    "official\\code\\stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892",
+    "tests\\conftest.py": "bc7b53bff45edc4cf5eaf03fb85ad9019bcb90fdbcfae47e663bba3ead94ec0d",
+    "tests\\test_calendar.py": "d61e0b762604a5399f1efa22dfe89436ebc21612c5168e3fa485140f6675f05f",
+    "tests\\test_gpu_and_search.py": "75f6381bb50940652e58dd1d294900d25431f75aafd6f0830a7d53683a9ad1b5",
+    "tests\\test_model.py": "f1d370fcb5e162a3be0ebf1be7d1aca39e4a6d333f947e7b1e941ce42720aa60",
+    "run.py": "3ff819936b30e65a57a60098ea77865961eb0f4e92553969363c148e6f6035e1",
+    "requirements.txt": "7ea1aaeb52614ba43e6bd1de18272a755ef93ea02f5a537456fd67b2281476d0",
+    "requirements-lock.txt": "7ca10f0caf956c3db6592d7f3b0e4b5ec9846fb0be8467af21b3b04c82d072b5",
+    "pyproject.toml": "37715d8d05326fcca5e467c4de860402b4963654c9023856dde24dbf82bc77a4",
+    "华为杯_code.code-workspace": "d8cdbcc965ede7c05ef58e4e8ff42555c38348824fb583b4c0d708d6f58b6864",
+    "开始验证.ps1": "f0e5f119a35d324107abc12b9cee624a5767b47af53e304679d7d9da21e3b854",
+    "开始全量实验.ps1": "76a2f4d7e50e442074af8a7d8652a956e50d1d16b9d6e681386a73e4a2f8b1fc",
+    "更新验证报告.ps1": "23ecb0801d0e31a2f82104d17b8261a7eb1e382d93bc28563c61af4eb6804017",
+    "data\\raw\\config.txt": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+    "specification\\FINAL_IDEA.md": "405ddd925ef27eaf4010e7ff557768b290e9fea27b6795ed2c8980a0798174c1"
+  },
+  "verified_slots": {
+    "main": 90,
+    "enhanced": 90
+  },
+  "main_official_calls": 363,
+  "experiments": {
+    "main": {
+      "wall_seconds": 42.2756687000001,
+      "slots": 90,
+      "cases": 6
+    },
+    "paired": {
+      "cases": 6,
+      "new_official_calls": 98,
+      "comparison_kinds": [
+        "same Q3-selected submission under both hardware scenes",
+        "same complete candidate pool, optimized on each side"
+      ]
+    },
+    "resources": {
+      "cases": 2,
+      "observations": 18,
+      "new_official_calls": 16,
+      "interpretation": "Fixed submission; no resource-dependent reoptimization"
+    },
+    "ablation": {
+      "observations": 32,
+      "new_official_calls": 32
+    },
+    "calibration": {
+      "synthetic": true,
+      "observations": 12,
+      "new_official_calls": 12
+    },
+    "topology": {
+      "configurations": 8,
+      "new_official_calls": 8,
+      "improved": 0,
+      "equal": 8,
+      "worse": 0,
+      "mean_time_ratio": 1.0,
+      "max_time_ratio": 1.0
+    }
+  },
+  "full_100_case_search_completed": false,
+  "gpu_benchmark": {
+    "case": "case_014",
+    "nodes": 35705,
+    "tensors": 40287,
+    "cores": 5,
+    "repeats": 15,
+    "cpu_median_seconds": 0.11568679999982123,
+    "gpu_median_seconds": 0.00138899999728892,
+    "scan_speedup": 83.2878331357964,
+    "cuda_initialization_seconds": 0.5987127999978838,
+    "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "exactly_equal": true,
+    "timings": {
+      "cpu": [
+        0.11896780000097351,
+        0.11571660000117845,
+        0.1181271999994351,
+        0.11484500000005937,
+        0.1154394000004686,
+        0.11558770000192453,
+        0.11549629999717581,
+        0.11828120000063791,
+        0.11692860000039218,
+        0.11482879999675788,
+        0.11567920000015874,
+        0.11746529999800259,
+        0.11561240000082762,
+        0.11568679999982123,
+        0.11666479999985313
+      ],
+      "cuda": [
+        0.002086200001940597,
+        0.0013837000005878508,
+        0.001583000001119217,
+        0.001382399997964967,
+        0.0013646999977936503,
+        0.0014534000001731329,
+        0.0013714999986405019,
+        0.00138899999728892,
+        0.0013178999979572836,
+        0.0014434000004257541,
+        0.0014800999997532926,
+        0.0013575999983004294,
+        0.0015649000015400816,
+        0.0013466999989759643,
+        0.001582199998665601
+      ]
+    },
+    "scope": "Serial-residency proxy including per-call host preparation and transfers; excludes official CPU evaluator and one-time CUDA initialization"
+  },
+  "latest": {
+    "idea_sha256": "405ddd925ef27eaf4010e7ff557768b290e9fea27b6795ed2c8980a0798174c1",
+    "main": "validation_final_20260924_1828",
+    "paired": "validation_final_20260924_1828_pairs",
+    "resources": "validation_final_20260924_1828_resources",
+    "ablation": "validation_final_20260924_1828_ablation",
+    "topology": "validation_final_20260924_1828_topology",
+    "calibration": "validation_final_20260924_1828_calibration"
+  }
+}

@@ -1,0 +1,4 @@
+cupy-cuda13x[ctk]==14.2.0
+numpy==2.4.2
+matplotlib==3.11.2
+pytest==9.1.1

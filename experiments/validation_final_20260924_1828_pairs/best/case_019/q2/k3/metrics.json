@@ -1,0 +1,41 @@
+{
+  "makespan": 27032,
+  "added_copy_bytes": 191304,
+  "original_copy_bytes": 186984,
+  "boundary_bytes_before_spill": 378288,
+  "spill_copy_bytes": 0,
+  "scheduled_copy_bytes": 378288,
+  "ddr_service_bytes": 378288,
+  "cache_hit_bytes": 0,
+  "cache_byte_hit_rate": 0.0,
+  "global_lower_bound": 16145.333333333334,
+  "plan_lower_bound": 18308,
+  "gap_to_global_bound": 0.6742918490379057,
+  "subgraph_count": 68,
+  "tasks_per_core": [
+    1,
+    1,
+    1
+  ],
+  "memory_peak_by_core": {
+    "0": {
+      "L1": 36864,
+      "UB": 18432
+    },
+    "1": {
+      "L1": 36864,
+      "UB": 16512
+    },
+    "2": {
+      "L1": 28416,
+      "UB": 30848
+    }
+  },
+  "case": "case_019",
+  "scene": 2,
+  "cores": 3,
+  "original_makespan": 27032,
+  "selection": "equal_candidate_pool",
+  "pool_size": 17,
+  "official_result": "..\\..\\..\\..\\..\\validation_final_20260924_1828\\case_019\\q2\\evaluations\\008_b13cd404e198.official.json.gz"
+}

@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-24T18:17:21.818738+08:00",
+  "archived_legacy_workspace": "D:\\研一上学期\\华为杯\\_code_旧版归档_20260924_181720",
+  "independent_source": "D:\\研一上学期\\华为杯\\A题_独立重写_20260924",
+  "source_sha256": {
+    "src\\npu_schedule\\__init__.py": "01d20b9a1b8acd47648e8463dc282fcff110f8f9455c2fd932dc7254dfc3f521",
+    "src\\npu_schedule\\analysis.py": "d5e0f731a5aeb1a432004325a7614983c0377489cafa30255230480673849335",
+    "src\\npu_schedule\\calendar.py": "94953b053a033e79fa429d2086118f6e9b9d4664e9757d737f82e923edb4e0d9",
+    "src\\npu_schedule\\candidates.py": "bc787cb3166aad3c9f55da1d614fa037fa789a22423a895e130551e79e94fd98",
+    "src\\npu_schedule\\cli.py": "44556334b3e1fa291648af01d19f26b8e71de54e4bff22463c5623beb07660e9",
+    "src\\npu_schedule\\construction.py": "e4e0409f31a8b55bdc7185ec14ed88c704975849b9643e3f67fc9e7122f697df",
+    "src\\npu_schedule\\experiment.py": "b99db8c80d78b85f02d96dda266fa31834b2cbb708367ff1bc16744ae7f990e8",
+    "src\\npu_schedule\\metrics.py": "f42379a9b22cadfaf1fd09b3a95c28e2893a12807eaf70773646933ea228269f",
+    "src\\npu_schedule\\official.py": "eba79f42490ce659d0efed2a7a0749c745403912d93b6694a789c3d0f7941ec2",
+    "src\\npu_schedule\\ordering.py": "73999d900fae0becab252772ac0bee026e133635ebaf625532f596e0a95f7d1a",
+    "src\\npu_schedule\\pricing.py": "d7c914f7a7045ec77d6af1ecb59db9c780dad6df7b252965cbbb26be1ef34200",
+    "src\\npu_schedule\\problem.py": "114c276f33776d215e197229dbc368c7ec3ebb3387b98e9787e53ce6876f334a",
+    "src\\npu_schedule\\report.py": "7ed74fb73706e75a4f0e50e54e5abcc7181e2e9bcc94441bb951fba1cf029a2b",
+    "src\\npu_schedule\\residency.py": "9466ecd6fcbe90c3896d29c0d31544b4ec78b7b71b0e082f929667d410bec2c9",
+    "src\\npu_schedule\\search.py": "be73fd89f824dfb4bbc7a92a31dc982458a9ce5ca28e20f6cd4dd8dc08b79fff",
+    "src\\npu_schedule\\statistics.py": "1c14878901afd025f932942054df0dc152e2fd6cd57bd359fa505a588e0bbc75",
+    "src\\npu_schedule\\storage.py": "a4e51cd5aa197c7dfd93358b9112980c22b12dc3c0a7654cf504c64b350c3a47",
+    "src\\npu_schedule\\synthetic.py": "515e3af0619bdaac9ff462828418f253be164f8568d55ebf539a228c1c52a9b2",
+    "src\\npu_schedule\\topology_control.py": "0408b59eb99296df661fd69a074e1546f744009de82355b7c4ddab05c54cf0c9",
+    "tests\\conftest.py": "a815104843384492d9b3beaa1b03d28ec07d64aa547f66bb6c7bebe90b090406",
+    "tests\\test_calendar.py": "0d9e237e4ee984e5de8e373671eb6b4e19d95a38fea7a6b97c772d49a70465bf",
+    "tests\\test_gpu_and_search.py": "567de08dc64f401174a2d63f136a40be2f9cda05578185b028305d61185469af",
+    "tests\\test_model.py": "2a89f17c8c8956369fb1a333b9a1d7adf491c03721bb6e218740f006c64e1ab0"
+  },
+  "history": "Deploy the independently authored implementation; no legacy _code solver modules or experiment results imported.",
+  "new_experiments_required": true
+}

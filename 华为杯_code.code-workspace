@@ -1,0 +1,8 @@
+{
+  "folders": [{"path": "."}],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "files.exclude": {"**/__pycache__": true, ".pytest_cache": true},
+    "search.exclude": {".venv": true, "data/raw": true, "experiments": true, "reports/cuda_kernel_cache": true}
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "sample_count": 6,
+  "result_slots": 90,
+  "actual_official_calls": 363,
+  "figure": "figures/performance.png",
+  "claim_scope": "Only the cases present in this fresh run; no claim of completing all 100 unless count is 100"
+}

@@ -1,0 +1,284 @@
+[
+  {
+    "cores": 1,
+    "label": "whole_graph",
+    "status": "evaluated",
+    "evaluation": "evaluations/001_2839b4122403.official.json.gz"
+  },
+  {
+    "cores": 2,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_2839b4122403.official.json.gz"
+  },
+  {
+    "cores": 2,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/001_2839b4122403.official.json.gz"
+  },
+  {
+    "cores": 2,
+    "label": "fine",
+    "generation_seconds": 0.0022996000006969552,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/002_dcbb8c87ab47.official.json.gz",
+    "submission": "evaluations/002_dcbb8c87ab47.plan.json",
+    "makespan": 679752,
+    "added_copy_bytes": 25781760
+  },
+  {
+    "cores": 2,
+    "label": "local",
+    "generation_seconds": 0.004629300001397496,
+    "diagnostic": {
+      "adjacent_merges": 0,
+      "units_before": 13,
+      "units_after": 2
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/003_b50b336c9260.official.json.gz",
+    "submission": "evaluations/003_b50b336c9260.plan.json",
+    "makespan": 769224,
+    "added_copy_bytes": 21498480
+  },
+  {
+    "cores": 2,
+    "label": "budget_0.10",
+    "generation_seconds": 0.008142800001223804,
+    "diagnostic": {
+      "percentage": 10,
+      "task_limit": 421,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 2,
+    "label": "budget_0.05",
+    "generation_seconds": 0.007940300001791911,
+    "diagnostic": {
+      "percentage": 5,
+      "task_limit": 211,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 3,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_2839b4122403.official.json.gz"
+  },
+  {
+    "cores": 3,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/002_dcbb8c87ab47.official.json.gz"
+  },
+  {
+    "cores": 3,
+    "label": "fine",
+    "generation_seconds": 0.002483599997503916,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/004_82af5303254a.official.json.gz",
+    "submission": "evaluations/004_82af5303254a.plan.json",
+    "makespan": 589444,
+    "added_copy_bytes": 25781760
+  },
+  {
+    "cores": 3,
+    "label": "local",
+    "generation_seconds": 0.004439500000444241,
+    "diagnostic": {
+      "adjacent_merges": 0,
+      "units_before": 13,
+      "units_after": 3
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/005_4b4a38a5882e.official.json.gz",
+    "submission": "evaluations/005_4b4a38a5882e.plan.json",
+    "makespan": 657430,
+    "added_copy_bytes": 21438504
+  },
+  {
+    "cores": 3,
+    "label": "budget_0.10",
+    "generation_seconds": 0.007013099999312544,
+    "diagnostic": {
+      "percentage": 10,
+      "task_limit": 281,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 3,
+    "label": "budget_0.05",
+    "generation_seconds": 0.006552300001203548,
+    "diagnostic": {
+      "percentage": 5,
+      "task_limit": 141,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 4,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_2839b4122403.official.json.gz"
+  },
+  {
+    "cores": 4,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/004_82af5303254a.official.json.gz"
+  },
+  {
+    "cores": 4,
+    "label": "fine",
+    "generation_seconds": 0.002077000001008855,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/006_3635b221f327.official.json.gz",
+    "submission": "evaluations/006_3635b221f327.plan.json",
+    "makespan": 565296,
+    "added_copy_bytes": 25781760
+  },
+  {
+    "cores": 4,
+    "label": "local",
+    "generation_seconds": 0.0046599000015703496,
+    "diagnostic": {
+      "adjacent_merges": 0,
+      "units_before": 13,
+      "units_after": 4
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/007_3da259eae3c9.official.json.gz",
+    "submission": "evaluations/007_3da259eae3c9.plan.json",
+    "makespan": 608275,
+    "added_copy_bytes": 21392136
+  },
+  {
+    "cores": 4,
+    "label": "budget_0.10",
+    "generation_seconds": 0.006875099999888334,
+    "diagnostic": {
+      "percentage": 10,
+      "task_limit": 211,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 4,
+    "label": "budget_0.05",
+    "generation_seconds": 0.006523700001707766,
+    "diagnostic": {
+      "percentage": 5,
+      "task_limit": 106,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 5,
+    "label": "whole_graph",
+    "status": "reused",
+    "evaluation": "evaluations/001_2839b4122403.official.json.gz"
+  },
+  {
+    "cores": 5,
+    "label": "inherited",
+    "status": "reused",
+    "evaluation": "evaluations/006_3635b221f327.official.json.gz"
+  },
+  {
+    "cores": 5,
+    "label": "fine",
+    "generation_seconds": 0.0021295000005920883,
+    "diagnostic": {
+      "alpha": 2,
+      "repaired_components": 0
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/008_bcc00f0022f2.official.json.gz",
+    "submission": "evaluations/008_bcc00f0022f2.plan.json",
+    "makespan": 522053,
+    "added_copy_bytes": 25781760
+  },
+  {
+    "cores": 5,
+    "label": "local",
+    "generation_seconds": 0.004522200000792509,
+    "diagnostic": {
+      "adjacent_merges": 0,
+      "units_before": 13,
+      "units_after": 5
+    },
+    "status": "evaluated",
+    "evaluation": "evaluations/009_6718b0afa59c.official.json.gz",
+    "submission": "evaluations/009_6718b0afa59c.plan.json",
+    "makespan": 542638,
+    "added_copy_bytes": 21724704
+  },
+  {
+    "cores": 5,
+    "label": "budget_0.10",
+    "generation_seconds": 0.006971499999053776,
+    "diagnostic": {
+      "percentage": 10,
+      "task_limit": 169,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  },
+  {
+    "cores": 5,
+    "label": "budget_0.05",
+    "generation_seconds": 0.0063346000024466775,
+    "diagnostic": {
+      "percentage": 5,
+      "task_limit": 85,
+      "target_units": 13,
+      "actual_units": 13,
+      "topology": "kahn"
+    },
+    "status": "duplicate",
+    "duplicate_of": "fine"
+  }
+]

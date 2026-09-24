@@ -1,0 +1,122 @@
+[
+  {
+    "case": "case_071",
+    "single_component": true,
+    "size_band": 1,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_064",
+    "single_component": true,
+    "size_band": 1,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_051",
+    "single_component": true,
+    "size_band": 2,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_048",
+    "single_component": true,
+    "size_band": 2,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_005",
+    "single_component": true,
+    "size_band": 3,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_082",
+    "single_component": true,
+    "size_band": 3,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_024",
+    "single_component": true,
+    "size_band": 4,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_063",
+    "single_component": true,
+    "size_band": 4,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_047",
+    "single_component": true,
+    "size_band": 5,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_062",
+    "single_component": true,
+    "size_band": 5,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_019",
+    "single_component": false,
+    "size_band": 1,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_032",
+    "single_component": false,
+    "size_band": 1,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_078",
+    "single_component": false,
+    "size_band": 2,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_098",
+    "single_component": false,
+    "size_band": 2,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_059",
+    "single_component": false,
+    "size_band": 3,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_083",
+    "single_component": false,
+    "size_band": 3,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_089",
+    "single_component": false,
+    "size_band": 4,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_099",
+    "single_component": false,
+    "size_band": 4,
+    "quartile": 0.75
+  },
+  {
+    "case": "case_003",
+    "single_component": false,
+    "size_band": 5,
+    "quartile": 0.25
+  },
+  {
+    "case": "case_087",
+    "single_component": false,
+    "size_band": 5,
+    "quartile": 0.75
+  }
+]
