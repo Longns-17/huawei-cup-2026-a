@@ -10,6 +10,7 @@ import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
+from zipfile import ZipFile
 
 from .candidates import BUDGET
 from .experiment import source_hashes
@@ -51,6 +52,20 @@ def test_receipt(path):
     return counts
 
 
+def verify_saved_sources(manifest, context, current_sources, snapshot):
+    """Keep the experiment receipt frozen when only this reporting module changes."""
+    recorded = manifest["source_sha256"]
+    assert context["source_sha256"] == recorded
+    assert set(recorded) == set(current_sources)
+    with ZipFile(snapshot) as archive:
+        for relative, digest in recorded.items():
+            normalized = relative.replace("\\", "/")
+            assert hashlib.sha256(archive.read(normalized)).hexdigest() == digest, relative
+            if normalized != "src/npu_schedule/verification.py":
+                assert current_sources[relative] == digest, relative
+    return recorded
+
+
 def verify():
     latest = read_json(ROOT / "experiments/LATEST.json")
     provenance = read_json(ROOT / "specification/input_provenance.json")
@@ -61,12 +76,15 @@ def verify():
         assert hashlib.sha256((ROOT / item["local_path"]).read_bytes()).hexdigest() == item["sha256"]
     current_sources = source_hashes()
     context = read_json(ROOT / "checks/test_context.json")
-    assert context["source_sha256"] == current_sources
     tests = test_receipt(ROOT / "checks/tests.xml")
     main = ROOT / "experiments" / latest["main"]
     paired = ROOT / "experiments" / latest["paired"]
     manifest = read_json(main / "manifest.json")
-    assert manifest["source_sha256"] == current_sources
+    recorded_sources = verify_saved_sources(manifest, context, current_sources, main / "source_snapshot.zip")
+    project_status = read_json(ROOT / "project_status/full_run_status.json")
+    for relative, digest in project_status["evidence_sha256"].items():
+        evidence = ROOT / "project_status/full_run_evidence" / relative
+        assert hashlib.sha256(evidence.read_bytes()).hexdigest() == digest, relative
     cases = manifest["arguments"]["cases"]
     scenes = manifest["arguments"]["scenes"]
     cores = manifest["arguments"]["cores"]
@@ -109,11 +127,14 @@ def verify():
         official_files_verified=len(provenance["files"]),
         official_cases=len(list((ROOT / "data/raw").glob("case_*.json"))),
         test_result=tests,
-        source_sha256=current_sources,
+        scope="Current _code validation batch; the project's separate full run is recorded in project_full_run",
+        source_sha256=recorded_sources,
+        report_generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         verified_slots={"main": expected, "enhanced": expected},
         main_official_calls=aggregate["actual_official_calls"],
         experiments=summaries,
         full_100_case_search_completed=(len(cases) == 100 and set(scenes) == {1, 2, 3} and cores == 5),
+        project_full_run=project_status,
         gpu_benchmark=benchmark,
         latest=latest,
     )
@@ -134,18 +155,22 @@ def write_report(audit, cases, rows):
         q5.append(
             "| " + case + " | " + " | ".join(str(table[case, q, 5]["makespan"]) for q in (1, 2, 3)) + " |"
         )
+    project = audit["project_full_run"]
     full_status = (
-        "100 例三问五核已完成。"
-        if audit["full_100_case_search_completed"]
-        else "100 例正式全量尚未完成；本报告只覆盖下列独立运行的验证样本。"
+        f"项目正式全量已完成：{project['cases']} 例、三问、1—5 核共 "
+        f"{project['main_slots']} 个配置，来自 A题_Idea迭代/results/FINAL_delivery。"
+        f"本工作区当前验证批次完成 {len(cases)} 例、{audit['verified_slots']['main']} 个配置；"
+        "两批使用各自对应的代码与实验记录。"
     )
     markdown = f"""# 华为杯 A 题：最新 FINAL 代码与验证报告
 
 生成时间：{audit["generated_at"]}。正式工作区：`{ROOT}`。
 
-依据 FINAL 的 SHA-256：`{audit["idea_sha256"]}`。源码、测试与本批次的运行清单一致；原始官方文件校验通过。本报告由 `run.py verify` 从真实记录生成，没有录入文档中的历史分数。
+依据 FINAL 的 SHA-256：`{audit["idea_sha256"]}`。求解源码与本批次的运行清单一致，原始源码快照和测试收据保留；报告生成模块的当前哈希另行记录。原始官方文件校验通过。本报告由 `run.py verify` 从真实记录生成。
 
 **{full_status}**
+
+项目全量、当前独立验证和论文取数入口见 [项目状态与论文数据来源](../project_status/项目状态与论文数据来源.md)。下表及 GPU 测速属于 `_code` 批次；项目全量的完成状态不能由这里的样本数推断。`delivery_audit.json` 中 `full_100_case_search_completed` 仅指当前工作区批次，项目状态在 `project_full_run`。
 
 ## 本次检查
 
@@ -190,7 +215,7 @@ def write_report(audit, cases, rows):
 - [全量实验入口](../开始全量实验.ps1)
 - [机器可读核验记录](delivery_audit.json)
 
-`开始验证.ps1` 会创建新的验证批次并重新计算；`run.py verify` 只检查现有最新批次并重新生成报告；`开始全量实验.ps1` 才会启动 100 例全量。
+`开始验证.ps1` 会创建新的独立验证批次；`run.py verify` 检查已保存记录并更新报告；`开始全量实验.ps1` 用本工作区实现另起一批 100 例全量。论文已有正式全量依据，无须为了填补“未完成”而重复启动。
 """
     (ROOT / "checks/验证报告.md").write_text(markdown, encoding="utf-8")
 

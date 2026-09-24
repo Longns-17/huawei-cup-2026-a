@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:32:19.445250+08:00",
+  "generated_at": "2026-09-24T19:00:59.851347+08:00",
   "workspace": "D:\\研一上学期\\华为杯\\_code",
   "idea_sha256": "405ddd925ef27eaf4010e7ff557768b290e9fea27b6795ed2c8980a0798174c1",
   "official_files_verified": 114,
@@ -11,6 +11,7 @@
     "skipped": 0,
     "seconds": 15.056
   },
+  "scope": "Current _code validation batch; the project's separate full run is recorded in project_full_run",
   "source_sha256": {
     "src\\npu_schedule\\__init__.py": "01d20b9a1b8acd47648e8463dc282fcff110f8f9455c2fd932dc7254dfc3f521",
     "src\\npu_schedule\\analysis.py": "eee1cfdf6de4ebd8910d7f70ff8c250f191fe8ca1c8247ed057c2b0f66c9378a",
@@ -57,6 +58,7 @@
     "data\\raw\\config.txt": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
     "specification\\FINAL_IDEA.md": "405ddd925ef27eaf4010e7ff557768b290e9fea27b6795ed2c8980a0798174c1"
   },
+  "report_generator_sha256": "590f8a500cd25eaf84f051a74d0efb89d638a67d4fd9bf2388c8440326aa9a15",
   "verified_slots": {
     "main": 90,
     "enhanced": 90
@@ -102,6 +104,52 @@
     }
   },
   "full_100_case_search_completed": false,
+  "project_full_run": {
+    "scope": "Project FINAL full experiment, distinct from the _code validation batch",
+    "checked_at": "2026-09-24T18:58:54.974225+08:00",
+    "report_finished_at": "2026-09-24T17:42:14.466349+08:00",
+    "source_workspace": "D:\\研一上学期\\华为杯\\A题_Idea迭代",
+    "source_report": "D:\\研一上学期\\华为杯\\A题_Idea迭代\\results\\FINAL_report\\全量完成报告.md",
+    "source_code": "D:\\研一上学期\\华为杯\\A题_Idea迭代\\交付\\FINAL_复现包",
+    "completed": true,
+    "cases": 100,
+    "main_slots": 1500,
+    "enhanced_slots": 1500,
+    "complete_case_scenes": 300,
+    "paired_configurations": 500,
+    "resource_cases": 20,
+    "resource_observations": 180,
+    "topology_cases": 16,
+    "topology_configurations": 64,
+    "metrics_recomputed_from_saved_artifacts": {
+      "q1_five_core_mean_speedup": 3.555913640904961,
+      "q2_main_five_core_mean_speedup": 4.104374260744323,
+      "q2_enhanced_five_core_mean_speedup": 4.166085152383558,
+      "same_plan_l2_five_core": 1.0414814411359001,
+      "equal_pool_l2_five_core": 1.0299586938679164
+    },
+    "new_official_evaluations_for_this_check": 0,
+    "publication_scope": "This repository includes full-run status/statistics evidence and hashes, not the complete full-run raw artifacts or their solver implementation.",
+    "evidence_sha256": {
+      "best_verification.json": "c8acb89e7bfcca87c26a42138dbf9409d49e8c80ca574ebc2797547e023581de",
+      "delivery_analysis.json": "2eff6da436107e011ee0d8664bd0b3be23fd4fed82695079c299610c533306a7",
+      "delivery_progress.json": "7957eb4442c47ec321823d94c64ad2dbc94f641f73dcbe526f13ec0f32eafd5a",
+      "descriptive_statistics.json": "b5ca45b6e65ef09bfd5ddfbaf8044c8f9d07a799e2ad4fa35517d8c463d2aff8",
+      "execution_cost.csv": "2fee1517972c8760783fccb2f99f1c5fbab985ca2737a0f140235ebfd9630a51",
+      "execution_cost.json": "36b3b550770a8e0fbaa7a53f3c6478ce545b39660eba22ea2eb20adc313e878d",
+      "mechanism_selection.csv": "93170666818ee887f0173ee58be987959731b9b16b311c44c4d1965a2b87c066",
+      "performance_distribution.csv": "af7d7560bf837912bf85e585c0e664cd88a0c51254118b9b00be1ed9cf728971",
+      "python312_verification.json": "1829120531297d778b3be747da14fd2d491d28dea758729f3ebf5f30668e4994",
+      "resource_scan.csv": "3f0b884ae30a455235a0acfc7d9d4e530b71fce1d53c3ae1d68841cbb3e322b0",
+      "resources_aggregate.json": "40bbda1cb7e8e68a8637d8e05c3fc5af201b73e27708a5eee238221d1c5cd363",
+      "seed_comparisons.csv": "278a77d0c69aca1dc4615f0b01a7e74a95a433cd9361f6c3c5965f560c27dbf6",
+      "structure_groups.csv": "ce99194551d2d67026ada3574ff501df4f094fdafc140ab141da9ca04e3cbee7",
+      "summary.json": "54c03609a1ace56a8d32ae9e1e93e3dfddb08119af498153553ab08e613ea811",
+      "topology_summary.json": "baf93e7da3d5ddaf76c3df090243231c781330d909e6c49121b69e6707b22ce0",
+      "verified_artifact_manifest.json": "53d9291d6e6590f89051c5845591c2debcc71de4f1bd9e25299e584880274bf6",
+      "全量完成报告.md": "184c1832de81f31189a178806c59de69d7c45561af88a183c505915a7660095c"
+    }
+  },
   "gpu_benchmark": {
     "case": "case_014",
     "nodes": 35705,

@@ -1,0 +1,198 @@
+{
+  "runtime": "CPython 3.12.13",
+  "cases": 5,
+  "slots": 25,
+  "new_validation_official_calls": 192,
+  "all_identical": true,
+  "rows": [
+    {
+      "case": "case_006",
+      "q": 1,
+      "actual_calls": 17,
+      "checks": [
+        {
+          "k": 1,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 2,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 3,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 4,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 5,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        }
+      ]
+    },
+    {
+      "case": "case_006",
+      "q": 2,
+      "actual_calls": 17,
+      "checks": [
+        {
+          "k": 1,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 2,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 3,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 4,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 5,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        }
+      ]
+    },
+    {
+      "case": "case_006",
+      "q": 3,
+      "actual_calls": 29,
+      "checks": [
+        {
+          "k": 1,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 2,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 3,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 4,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 5,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        }
+      ]
+    },
+    {
+      "case": "case_048",
+      "q": 1,
+      "actual_calls": 17,
+      "checks": [
+        {
+          "k": 1,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 2,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 3,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 4,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 5,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        }
+      ]
+    },
+    {
+      "case": "case_078",
+      "q": 3,
+      "actual_calls": 29,
+      "checks": [
+        {
+          "k": 1,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 2,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 3,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 4,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        },
+        {
+          "k": 5,
+          "plan_same": true,
+          "metrics_same": true,
+          "selected_same": true
+        }
+      ]
+    }
+  ],
+  "batch_repeated_slots": 15,
+  "paired_configurations": 5,
+  "batch_calls": 63,
+  "pair_calls": 20
+}

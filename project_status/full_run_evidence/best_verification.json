@@ -1,0 +1,3532 @@
+{
+  "valid_slots": 1500,
+  "complete_search_slots": 1500,
+  "valid_l2_pairs": 500,
+  "equal_pool_pairs_checked": 500,
+  "violations": [],
+  "improvements": [
+    {
+      "q": 2,
+      "kind": "time_improved",
+      "slots": 158
+    },
+    {
+      "q": 2,
+      "kind": "time_tied",
+      "slots": 342
+    },
+    {
+      "q": 3,
+      "kind": "time_improved",
+      "slots": 103
+    },
+    {
+      "q": 3,
+      "kind": "time_tied",
+      "slots": 397
+    }
+  ],
+  "pair_checks": [
+    {
+      "case": "case_001",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_001",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_001",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_001",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_001",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_002",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_002",
+      "k": 2,
+      "pool_size": 6,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_002",
+      "k": 3,
+      "pool_size": 12,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_002",
+      "k": 4,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_002",
+      "k": 5,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_003",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_003",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_003",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_003",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_003",
+      "k": 5,
+      "pool_size": 31,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_004",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_004",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_004",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_004",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_004",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_005",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_005",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_005",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_005",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_005",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_006",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_006",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_006",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_006",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_006",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_007",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_007",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_007",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_007",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_007",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_008",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_008",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_008",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_008",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_008",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_009",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_009",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_009",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_009",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_009",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_010",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_010",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_010",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_010",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_010",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_011",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_011",
+      "k": 2,
+      "pool_size": 4,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_011",
+      "k": 3,
+      "pool_size": 13,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_011",
+      "k": 4,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_011",
+      "k": 5,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_012",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_012",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_012",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_012",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_012",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_013",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_013",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_013",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_013",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_013",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_014",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_014",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_014",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_014",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_014",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_015",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_015",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_015",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_015",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_015",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_016",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_016",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_016",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_016",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_016",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_017",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_017",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_017",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_017",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_017",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_018",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_018",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_018",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_018",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_018",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_019",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_019",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_019",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_019",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_019",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_020",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_020",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_020",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_020",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_020",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_021",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_021",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_021",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_021",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_021",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_022",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_022",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_022",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_022",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_022",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_023",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_023",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_023",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_023",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_023",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_024",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_024",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_024",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_024",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_024",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_025",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_025",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_025",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_025",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_025",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_026",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_026",
+      "k": 2,
+      "pool_size": 10,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_026",
+      "k": 3,
+      "pool_size": 18,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_026",
+      "k": 4,
+      "pool_size": 26,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_026",
+      "k": 5,
+      "pool_size": 34,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_027",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_027",
+      "k": 2,
+      "pool_size": 6,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_027",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_027",
+      "k": 4,
+      "pool_size": 19,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_027",
+      "k": 5,
+      "pool_size": 26,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_028",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_028",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_028",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_028",
+      "k": 4,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_028",
+      "k": 5,
+      "pool_size": 29,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_029",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_029",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_029",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_029",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_029",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_030",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_030",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_030",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_030",
+      "k": 4,
+      "pool_size": 26,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_030",
+      "k": 5,
+      "pool_size": 34,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_031",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_031",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_031",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_031",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_031",
+      "k": 5,
+      "pool_size": 34,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_032",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_032",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_032",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_032",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_032",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_033",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_033",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_033",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_033",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_033",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_034",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_034",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_034",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_034",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_034",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_035",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_035",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_035",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_035",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_035",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_036",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_036",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_036",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_036",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_036",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_037",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_037",
+      "k": 2,
+      "pool_size": 4,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_037",
+      "k": 3,
+      "pool_size": 13,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_037",
+      "k": 4,
+      "pool_size": 18,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_037",
+      "k": 5,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_038",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_038",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_038",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_038",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_038",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_039",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_039",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_039",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_039",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_039",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_040",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_040",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_040",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_040",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_040",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_041",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_041",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_041",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_041",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_041",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_042",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_042",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_042",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_042",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_042",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_043",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_043",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_043",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_043",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_043",
+      "k": 5,
+      "pool_size": 31,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_044",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_044",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_044",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_044",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_044",
+      "k": 5,
+      "pool_size": 31,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_045",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_045",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_045",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_045",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_045",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_046",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_046",
+      "k": 2,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_046",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_046",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_046",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_047",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_047",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_047",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_047",
+      "k": 4,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_047",
+      "k": 5,
+      "pool_size": 29,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_048",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_048",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_048",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_048",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_048",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_049",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_049",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_049",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_049",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_049",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_050",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_050",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_050",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_050",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_050",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_051",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_051",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_051",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_051",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_051",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_052",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_052",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_052",
+      "k": 3,
+      "pool_size": 18,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_052",
+      "k": 4,
+      "pool_size": 27,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_052",
+      "k": 5,
+      "pool_size": 35,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_053",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_053",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_053",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_053",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_053",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_054",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_054",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_054",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_054",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_054",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_055",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_055",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_055",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_055",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_055",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_056",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_056",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_056",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_056",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_056",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_057",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_057",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_057",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_057",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_057",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_058",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_058",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_058",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_058",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_058",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_059",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_059",
+      "k": 2,
+      "pool_size": 4,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_059",
+      "k": 3,
+      "pool_size": 12,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_059",
+      "k": 4,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_059",
+      "k": 5,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_060",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_060",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_060",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_060",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_060",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_061",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_061",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_061",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_061",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_061",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_062",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_062",
+      "k": 2,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_062",
+      "k": 3,
+      "pool_size": 13,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_062",
+      "k": 4,
+      "pool_size": 19,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_062",
+      "k": 5,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_063",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_063",
+      "k": 2,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_063",
+      "k": 3,
+      "pool_size": 13,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_063",
+      "k": 4,
+      "pool_size": 19,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_063",
+      "k": 5,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_064",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_064",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_064",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_064",
+      "k": 4,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_064",
+      "k": 5,
+      "pool_size": 29,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_065",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_065",
+      "k": 2,
+      "pool_size": 10,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_065",
+      "k": 3,
+      "pool_size": 18,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_065",
+      "k": 4,
+      "pool_size": 26,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_065",
+      "k": 5,
+      "pool_size": 34,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_066",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_066",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_066",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_066",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_066",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_067",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_067",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_067",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_067",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_067",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_068",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_068",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_068",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_068",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_068",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_069",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_069",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_069",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_069",
+      "k": 4,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_069",
+      "k": 5,
+      "pool_size": 29,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_070",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_070",
+      "k": 2,
+      "pool_size": 10,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_070",
+      "k": 3,
+      "pool_size": 18,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_070",
+      "k": 4,
+      "pool_size": 26,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_070",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_071",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_071",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_071",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_071",
+      "k": 4,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_071",
+      "k": 5,
+      "pool_size": 29,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_072",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_072",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_072",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_072",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_072",
+      "k": 5,
+      "pool_size": 30,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_073",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_073",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_073",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_073",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_073",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_074",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_074",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_074",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_074",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_074",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_075",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_075",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_075",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_075",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_075",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_076",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_076",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_076",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_076",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_076",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_077",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_077",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_077",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_077",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_077",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_078",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_078",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_078",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_078",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_078",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_079",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_079",
+      "k": 2,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_079",
+      "k": 3,
+      "pool_size": 12,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_079",
+      "k": 4,
+      "pool_size": 18,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_079",
+      "k": 5,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_080",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_080",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_080",
+      "k": 3,
+      "pool_size": 13,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_080",
+      "k": 4,
+      "pool_size": 19,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_080",
+      "k": 5,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_081",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_081",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_081",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_081",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_081",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_082",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_082",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_082",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_082",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_082",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_083",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_083",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_083",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_083",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_083",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_084",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_084",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_084",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_084",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_084",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_085",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_085",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_085",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_085",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_085",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_086",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_086",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_086",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_086",
+      "k": 4,
+      "pool_size": 22,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_086",
+      "k": 5,
+      "pool_size": 29,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_087",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_087",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_087",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_087",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_087",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_088",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_088",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_088",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_088",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_088",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_089",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_089",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_089",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_089",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_089",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_090",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_090",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_090",
+      "k": 3,
+      "pool_size": 15,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_090",
+      "k": 4,
+      "pool_size": 23,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_090",
+      "k": 5,
+      "pool_size": 31,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_091",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_091",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_091",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_091",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_091",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_092",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_092",
+      "k": 2,
+      "pool_size": 8,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_092",
+      "k": 3,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_092",
+      "k": 4,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_092",
+      "k": 5,
+      "pool_size": 32,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_093",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_093",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_093",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_093",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_093",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_094",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_094",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_094",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_094",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_094",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_095",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_095",
+      "k": 2,
+      "pool_size": 3,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_095",
+      "k": 3,
+      "pool_size": 5,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_095",
+      "k": 4,
+      "pool_size": 7,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_095",
+      "k": 5,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_096",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_096",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_096",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_096",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_096",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_097",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_097",
+      "k": 2,
+      "pool_size": 4,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_097",
+      "k": 3,
+      "pool_size": 11,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_097",
+      "k": 4,
+      "pool_size": 16,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_097",
+      "k": 5,
+      "pool_size": 24,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_098",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_098",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_098",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_098",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_098",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_099",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_099",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_099",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_099",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_099",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_100",
+      "k": 1,
+      "pool_size": 1,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_100",
+      "k": 2,
+      "pool_size": 9,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_100",
+      "k": 3,
+      "pool_size": 17,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_100",
+      "k": 4,
+      "pool_size": 25,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    },
+    {
+      "case": "case_100",
+      "k": 5,
+      "pool_size": 33,
+      "both_sides_fully_evaluated": true,
+      "lexicographic_minimum": true
+    }
+  ],
+  "evidence": "Verified saved official results; no new official evaluation."
+}

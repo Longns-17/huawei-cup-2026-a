@@ -1,0 +1,652 @@
+{
+  "updated": "2026-09-24T17:34:55.036998+08:00",
+  "completed_cases": 16,
+  "target_cases": 16,
+  "configurations": 64,
+  "wins": 3,
+  "ties": 49,
+  "losses": 12,
+  "actual_calls": 64,
+  "rows": [
+    {
+      "case": "case_002",
+      "k": 2,
+      "kahn_10": 170435,
+      "dfs_10": 167189,
+      "original_portfolio": 158851,
+      "replacement_portfolio": 158851,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_002",
+      "k": 3,
+      "kahn_10": 128307,
+      "dfs_10": 155563,
+      "original_portfolio": 117831,
+      "replacement_portfolio": 117831,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_002",
+      "k": 4,
+      "kahn_10": 110926,
+      "dfs_10": 139701,
+      "original_portfolio": 91859,
+      "replacement_portfolio": 91859,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_002",
+      "k": 5,
+      "kahn_10": 95775,
+      "dfs_10": 167347,
+      "original_portfolio": 78568,
+      "replacement_portfolio": 78568,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_005",
+      "k": 2,
+      "kahn_10": 90554,
+      "dfs_10": 111173,
+      "original_portfolio": 90554,
+      "replacement_portfolio": 90695,
+      "selected": "budget_0.05",
+      "cycles_saved": -141
+    },
+    {
+      "case": "case_005",
+      "k": 3,
+      "kahn_10": 107858,
+      "dfs_10": 109412,
+      "original_portfolio": 90554,
+      "replacement_portfolio": 90695,
+      "selected": "budget_0.05",
+      "cycles_saved": -141
+    },
+    {
+      "case": "case_005",
+      "k": 4,
+      "kahn_10": 92374,
+      "dfs_10": 111556,
+      "original_portfolio": 90554,
+      "replacement_portfolio": 90695,
+      "selected": "budget_0.05",
+      "cycles_saved": -141
+    },
+    {
+      "case": "case_005",
+      "k": 5,
+      "kahn_10": 93894,
+      "dfs_10": 109282,
+      "original_portfolio": 90554,
+      "replacement_portfolio": 90695,
+      "selected": "budget_0.05",
+      "cycles_saved": -141
+    },
+    {
+      "case": "case_024",
+      "k": 2,
+      "kahn_10": 1782398,
+      "dfs_10": 1779658,
+      "original_portfolio": 1782398,
+      "replacement_portfolio": 1779658,
+      "selected": "dfs_0.10",
+      "cycles_saved": 2740
+    },
+    {
+      "case": "case_024",
+      "k": 3,
+      "kahn_10": 1556206,
+      "dfs_10": 1944434,
+      "original_portfolio": 1556206,
+      "replacement_portfolio": 1556299,
+      "selected": "local",
+      "cycles_saved": -93
+    },
+    {
+      "case": "case_024",
+      "k": 4,
+      "kahn_10": 1401810,
+      "dfs_10": 2000995,
+      "original_portfolio": 1401006,
+      "replacement_portfolio": 1401006,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_024",
+      "k": 5,
+      "kahn_10": 1333910,
+      "dfs_10": 2009796,
+      "original_portfolio": 1324322,
+      "replacement_portfolio": 1324322,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_047",
+      "k": 2,
+      "kahn_10": 371586,
+      "dfs_10": 363996,
+      "original_portfolio": 326508,
+      "replacement_portfolio": 326508,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_047",
+      "k": 3,
+      "kahn_10": 343283,
+      "dfs_10": 371688,
+      "original_portfolio": 326508,
+      "replacement_portfolio": 326508,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_047",
+      "k": 4,
+      "kahn_10": 373386,
+      "dfs_10": 361525,
+      "original_portfolio": 326508,
+      "replacement_portfolio": 326508,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_047",
+      "k": 5,
+      "kahn_10": 374286,
+      "dfs_10": 359266,
+      "original_portfolio": 326508,
+      "replacement_portfolio": 326508,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_048",
+      "k": 2,
+      "kahn_10": 228161,
+      "dfs_10": 275012,
+      "original_portfolio": 193496,
+      "replacement_portfolio": 193496,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_048",
+      "k": 3,
+      "kahn_10": 229275,
+      "dfs_10": 290280,
+      "original_portfolio": 162475,
+      "replacement_portfolio": 162475,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_048",
+      "k": 4,
+      "kahn_10": 200803,
+      "dfs_10": 294031,
+      "original_portfolio": 149328,
+      "replacement_portfolio": 149328,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_048",
+      "k": 5,
+      "kahn_10": 198397,
+      "dfs_10": 265172,
+      "original_portfolio": 147633,
+      "replacement_portfolio": 147633,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_051",
+      "k": 2,
+      "kahn_10": 425966,
+      "dfs_10": 423226,
+      "original_portfolio": 425966,
+      "replacement_portfolio": 423226,
+      "selected": "dfs_0.10",
+      "cycles_saved": 2740
+    },
+    {
+      "case": "case_051",
+      "k": 3,
+      "kahn_10": 370560,
+      "dfs_10": 462184,
+      "original_portfolio": 370560,
+      "replacement_portfolio": 370653,
+      "selected": "local",
+      "cycles_saved": -93
+    },
+    {
+      "case": "case_051",
+      "k": 4,
+      "kahn_10": 333358,
+      "dfs_10": 475548,
+      "original_portfolio": 333324,
+      "replacement_portfolio": 333324,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_051",
+      "k": 5,
+      "kahn_10": 317741,
+      "dfs_10": 477573,
+      "original_portfolio": 315468,
+      "replacement_portfolio": 315468,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_063",
+      "k": 2,
+      "kahn_10": 704818,
+      "dfs_10": 683228,
+      "original_portfolio": 660192,
+      "replacement_portfolio": 660192,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_063",
+      "k": 3,
+      "kahn_10": 542829,
+      "dfs_10": 625474,
+      "original_portfolio": 496032,
+      "replacement_portfolio": 496032,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_063",
+      "k": 4,
+      "kahn_10": 429027,
+      "dfs_10": 625877,
+      "original_portfolio": 401646,
+      "replacement_portfolio": 401646,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_063",
+      "k": 5,
+      "kahn_10": 397833,
+      "dfs_10": 603316,
+      "original_portfolio": 314542,
+      "replacement_portfolio": 314542,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_064",
+      "k": 2,
+      "kahn_10": 21721,
+      "dfs_10": 22409,
+      "original_portfolio": 19116,
+      "replacement_portfolio": 19116,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_064",
+      "k": 3,
+      "kahn_10": 22631,
+      "dfs_10": 23823,
+      "original_portfolio": 19116,
+      "replacement_portfolio": 19116,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_064",
+      "k": 4,
+      "kahn_10": 23521,
+      "dfs_10": 24209,
+      "original_portfolio": 19116,
+      "replacement_portfolio": 19116,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_064",
+      "k": 5,
+      "kahn_10": 25044,
+      "dfs_10": 25740,
+      "original_portfolio": 19116,
+      "replacement_portfolio": 19116,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_069",
+      "k": 2,
+      "kahn_10": 29576,
+      "dfs_10": 30121,
+      "original_portfolio": 25144,
+      "replacement_portfolio": 25144,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_069",
+      "k": 3,
+      "kahn_10": 30476,
+      "dfs_10": 31021,
+      "original_portfolio": 25144,
+      "replacement_portfolio": 25144,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_069",
+      "k": 4,
+      "kahn_10": 30098,
+      "dfs_10": 32275,
+      "original_portfolio": 25144,
+      "replacement_portfolio": 25144,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_069",
+      "k": 5,
+      "kahn_10": 30998,
+      "dfs_10": 33175,
+      "original_portfolio": 25144,
+      "replacement_portfolio": 25144,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_071",
+      "k": 2,
+      "kahn_10": 22205,
+      "dfs_10": 20109,
+      "original_portfolio": 18919,
+      "replacement_portfolio": 18919,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_071",
+      "k": 3,
+      "kahn_10": 23079,
+      "dfs_10": 23951,
+      "original_portfolio": 18919,
+      "replacement_portfolio": 18919,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_071",
+      "k": 4,
+      "kahn_10": 24155,
+      "dfs_10": 22696,
+      "original_portfolio": 18919,
+      "replacement_portfolio": 18919,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_071",
+      "k": 5,
+      "kahn_10": 24879,
+      "dfs_10": 25751,
+      "original_portfolio": 18919,
+      "replacement_portfolio": 18919,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_075",
+      "k": 2,
+      "kahn_10": 1031436,
+      "dfs_10": 1319061,
+      "original_portfolio": 1007298,
+      "replacement_portfolio": 1007298,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_075",
+      "k": 3,
+      "kahn_10": 807709,
+      "dfs_10": 1351670,
+      "original_portfolio": 807709,
+      "replacement_portfolio": 821217,
+      "selected": "local",
+      "cycles_saved": -13508
+    },
+    {
+      "case": "case_075",
+      "k": 4,
+      "kahn_10": 744845,
+      "dfs_10": 1319707,
+      "original_portfolio": 644597,
+      "replacement_portfolio": 644597,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_075",
+      "k": 5,
+      "kahn_10": 807666,
+      "dfs_10": 1308822,
+      "original_portfolio": 590385,
+      "replacement_portfolio": 590385,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_082",
+      "k": 2,
+      "kahn_10": 543314,
+      "dfs_10": 684170,
+      "original_portfolio": 511186,
+      "replacement_portfolio": 511186,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_082",
+      "k": 3,
+      "kahn_10": 372096,
+      "dfs_10": 647013,
+      "original_portfolio": 372096,
+      "replacement_portfolio": 438494,
+      "selected": "local",
+      "cycles_saved": -66398
+    },
+    {
+      "case": "case_082",
+      "k": 4,
+      "kahn_10": 345652,
+      "dfs_10": 673811,
+      "original_portfolio": 345652,
+      "replacement_portfolio": 360024,
+      "selected": "local",
+      "cycles_saved": -14372
+    },
+    {
+      "case": "case_082",
+      "k": 5,
+      "kahn_10": 347629,
+      "dfs_10": 644929,
+      "original_portfolio": 313395,
+      "replacement_portfolio": 313395,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_085",
+      "k": 2,
+      "kahn_10": 2395797,
+      "dfs_10": 2985835,
+      "original_portfolio": 2214918,
+      "replacement_portfolio": 2214918,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_085",
+      "k": 3,
+      "kahn_10": 1673881,
+      "dfs_10": 3001680,
+      "original_portfolio": 1583476,
+      "replacement_portfolio": 1583476,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_085",
+      "k": 4,
+      "kahn_10": 1375760,
+      "dfs_10": 3029316,
+      "original_portfolio": 1375760,
+      "replacement_portfolio": 1468266,
+      "selected": "budget_0.05",
+      "cycles_saved": -92506
+    },
+    {
+      "case": "case_085",
+      "k": 5,
+      "kahn_10": 1297473,
+      "dfs_10": 2911772,
+      "original_portfolio": 1297473,
+      "replacement_portfolio": 1463606,
+      "selected": "local",
+      "cycles_saved": -166133
+    },
+    {
+      "case": "case_086",
+      "k": 2,
+      "kahn_10": 129292,
+      "dfs_10": 130268,
+      "original_portfolio": 118403,
+      "replacement_portfolio": 118403,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_086",
+      "k": 3,
+      "kahn_10": 126933,
+      "dfs_10": 134815,
+      "original_portfolio": 118403,
+      "replacement_portfolio": 118403,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_086",
+      "k": 4,
+      "kahn_10": 131092,
+      "dfs_10": 132261,
+      "original_portfolio": 118403,
+      "replacement_portfolio": 118403,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_086",
+      "k": 5,
+      "kahn_10": 132006,
+      "dfs_10": 133161,
+      "original_portfolio": 118403,
+      "replacement_portfolio": 118403,
+      "selected": "whole_graph",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_062",
+      "k": 2,
+      "kahn_10": 1883210,
+      "dfs_10": 1820533,
+      "original_portfolio": 1778694,
+      "replacement_portfolio": 1778694,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_062",
+      "k": 3,
+      "kahn_10": 1494091,
+      "dfs_10": 1537046,
+      "original_portfolio": 1313563,
+      "replacement_portfolio": 1313563,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_062",
+      "k": 4,
+      "kahn_10": 1223542,
+      "dfs_10": 1676059,
+      "original_portfolio": 1045834,
+      "replacement_portfolio": 1045834,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_062",
+      "k": 5,
+      "kahn_10": 1069304,
+      "dfs_10": 1707660,
+      "original_portfolio": 880756,
+      "replacement_portfolio": 880756,
+      "selected": "budget_0.05",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_016",
+      "k": 2,
+      "kahn_10": 5376062,
+      "dfs_10": 5373322,
+      "original_portfolio": 5376062,
+      "replacement_portfolio": 5373322,
+      "selected": "dfs_0.10",
+      "cycles_saved": 2740
+    },
+    {
+      "case": "case_016",
+      "k": 3,
+      "kahn_10": 4697398,
+      "dfs_10": 5871434,
+      "original_portfolio": 4697398,
+      "replacement_portfolio": 4697491,
+      "selected": "local",
+      "cycles_saved": -93
+    },
+    {
+      "case": "case_016",
+      "k": 4,
+      "kahn_10": 4232514,
+      "dfs_10": 6042439,
+      "original_portfolio": 4229670,
+      "replacement_portfolio": 4229670,
+      "selected": "local",
+      "cycles_saved": 0
+    },
+    {
+      "case": "case_016",
+      "k": 5,
+      "kahn_10": 4026098,
+      "dfs_10": 6069192,
+      "original_portfolio": 3997130,
+      "replacement_portfolio": 3997130,
+      "selected": "local",
+      "cycles_saved": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "updated": "2026-09-24T17:26:44.941854+08:00",
+  "completed_cases": 20,
+  "target_cases": 20,
+  "actual_calls": 160,
+  "rows": [
+    {
+      "capacity_bytes": 262144,
+      "bandwidth": 60,
+      "cases": 20,
+      "mean_per_case_time_ratio": 1.0023605277546719
+    },
+    {
+      "capacity_bytes": 262144,
+      "bandwidth": 250,
+      "cases": 20,
+      "mean_per_case_time_ratio": 1.0004911075490874
+    },
+    {
+      "capacity_bytes": 262144,
+      "bandwidth": 500,
+      "cases": 20,
+      "mean_per_case_time_ratio": 1.0004474534209886
+    },
+    {
+      "capacity_bytes": 1048576,
+      "bandwidth": 60,
+      "cases": 20,
+      "mean_per_case_time_ratio": 1.0021173151923548
+    },
+    {
+      "capacity_bytes": 1048576,
+      "bandwidth": 250,
+      "cases": 20,
+      "mean_per_case_time_ratio": 1.0
+    },
+    {
+      "capacity_bytes": 1048576,
+      "bandwidth": 500,
+      "cases": 20,
+      "mean_per_case_time_ratio": 0.9998109547689324
+    },
+    {
+      "capacity_bytes": 4194304,
+      "bandwidth": 60,
+      "cases": 20,
+      "mean_per_case_time_ratio": 1.0019699355590925
+    },
+    {
+      "capacity_bytes": 4194304,
+      "bandwidth": 250,
+      "cases": 20,
+      "mean_per_case_time_ratio": 0.9996947175605861
+    },
+    {
+      "capacity_bytes": 4194304,
+      "bandwidth": 500,
+      "cases": 20,
+      "mean_per_case_time_ratio": 0.9994466334290033
+    }
+  ]
+}

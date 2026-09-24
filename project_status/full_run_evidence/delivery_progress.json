@@ -1,0 +1,14 @@
+{
+  "updated": "2026-09-24T17:32:20.547596+08:00",
+  "target_slots": 1500,
+  "valid_slots": 1500,
+  "search_complete_slots": 1500,
+  "complete_case_scenes": 300,
+  "baseline_ready_case_scenes": 300,
+  "sources": [
+    "D:\\研一上学期\\华为杯\\A题_Idea迭代\\results\\FINAL_full",
+    "D:\\研一上学期\\华为杯\\A题_Idea迭代\\results\\FINAL_accelerated",
+    "D:\\研一上学期\\华为杯\\A题_Idea迭代\\results\\FINAL_large"
+  ],
+  "all_searches_complete": true
+}
